@@ -1,0 +1,24 @@
+/*kelas css untuk backgound utama di paling atas*/
+.top-background-1 {
+    background-image:    url(../background/background_home_1.JPG);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    height: 300px;
+    width: 100%;
+}
+/*kelas css untuk background depan di atas*/
+.top-background-2 {
+    background-image:    url(../background/background_home_2.JPG);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    height: 250px;
+    width: 250px;
+    z-index: 1;
+    transform: translate(30px, -200px);
+}
+/*mengalokasikan tampilan container di home agar naik karena adanya kelas top-background-2*/
+.my-adjust {
+    transform: translate(0px, -150px);
+}

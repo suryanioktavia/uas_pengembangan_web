@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>• R e m i n d e r •</title>
+        
+        <!--penggunaan css yang disediakan oleh kerangka kerja (framework) bootstrap-->
+        <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+        <!--penggunaan css yang dikembangkan sendiri-->
+        <link href="./assets/css/my.css" rel="stylesheet" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+                <!--judul navigarsi-->
+                <a class="navbar-brand fs-2 mr-auto" href="#">• R e m i n d e r •</a>
+                <!--tombol hamburger dari kerangka kerja (framework) bootstrap untuk menampilkan menu yang dapat dihilangkan ketika tampilan HPs-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!--daftar menu navigasi-->
+                    <ul class="navbar-nav ms-auto mt-2">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active fw-bold" aria-current="page" href="index.html" style="color: brown;">HOME</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="services.html">SERVICES</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!--background utama yang paling atas pakai kelas css yang ada di file assets/css/my.css-->
+        <div class="top-background-1"></div>
+        <!--background depan di atas kelas css yang ada di file assets/css/my.css-->
+        <div class="top-background-2"></div>
+
+        <!--container untuk memuat daftar konten yang ada di halaman utama-->
+        <div class="container-fluid my-adjust">
+            <!--row untuk membuat baris tampilan-->
+            <div class="row">
+                <!--col untuk membuat kolom tampilan-->
+                <!--
+                    col- memaksudkan ukuran tampilan secara umum, 
+                    sedangkan col-md memaksudkan ukuran tampilan ketika layar website lebih besar dari ukuran Tablet
+                -->
+                <div class="col-0 col-md-1"></div>
+                <div class="col-md-3 col-11 ms-4 my-3 m-md-3">
+                    <a class="text-decoration-none" style="color: brown;" href="about.html">
+                        <p class="text-center">ABOUT</p>
+                        <img class="img-fluid w-100" src="./assets/background/background_about_43.jpg"/>
+                    </a>
+                </div>
+                <div class="col-md-3 col-11 ms-4 my-3 m-md-3">
+                    <a class="text-decoration-none" style="color: brown;" href="services.html">
+                        <p class="text-center">SERVICES</p>
+                        <img class="img-fluid w-100" src="./assets/background/background_services_43.jpg"/>
+                    </a>
+                </div>
+                <div class="col-md-3 col-11 ms-4 my-3 m-md-3">
+                    <a class="text-decoration-none" style="color: brown;" href="contact.html">
+                        <p class="text-center">CONTACT</p>
+                        <img class="img-fluid w-100" src="./assets/background/background_contact_43.jpg"/>
+                    </a>
+                </div>
+                <div class="col-0 col-md-1"></div>
+            </div>
+        </div>
+
+        <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
